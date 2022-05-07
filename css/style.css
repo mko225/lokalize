@@ -1,0 +1,57 @@
+@import url(components/header.css);
+@import url(components/buttons.css);
+@import url(components/brand.css);
+@import url(components/main.css);
+@import url(components/section.css);
+@import url(components/productivity.css);
+@import url(components/revolut.css);
+@import url(components/software.css);
+@import url(components/tools.css);
+@import url(components/wait.css);
+@import url(components/studies.css);
+
+body {
+    font-family: Graphik, Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 400px;
+  }
+
+h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+  }
+
+  h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+ h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+ }
+
+ a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  a {
+    color: #000000;
+  }

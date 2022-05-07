@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 120px;
+  padding: 0 36px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.regular {
+  background-color: white;
+  border: 1px solid #808080;
+}
+
+.main {
+  background-color: #ff6336;
+  color: white;
+}
+
+.wait {
+  background-color: black;
+  color: white;
+}
+
+.tools {
+  max-width: 200px;
+}
