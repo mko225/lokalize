@@ -5,9 +5,12 @@
 .nav__content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1340px;
   margin: 0 auto;
   margin-bottom: 24px;
+  padding-top: 35px;
+
 }
 
 .nav__logo {
@@ -20,7 +23,6 @@
   display: inline-block;
   margin: 0;
   padding-inline-start: 0;
-  padding-top: 35px;
   list-style: none;
   font-size: 15px;
   line-height: 20px;
@@ -39,10 +41,13 @@
 .nav__btn {
   display: flex;
   gap: 10px;
-  padding-top: 25px;
 }
 
-header {
+.nav__btn > a {
+  line-height: 45px;
+}
+
+.about {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -51,16 +56,16 @@ header {
   margin-bottom: 170px;
 }
 
-.header__image {
+.about__image {
   width: 759px;
   height: 529px;
 }
 
-.header__heading {
+.about__heading {
   margin-bottom: 51px;
 }
 
-.header__description {
+.about__description {
   margin: 0;
   margin-bottom: 50px;
   max-width: 471px;
@@ -69,14 +74,14 @@ header {
   letter-spacing: 0.03em;
 }
 
-.header__btn {
+.about__btn {
   display: flex;
   gap: 10px;
   margin-bottom: 25px;  
   line-height: 40px;
 }
 
-.header__small {
+.about__small {
   margin: 0;
   font-size: 15px;
   line-height: 25px;

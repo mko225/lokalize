@@ -9,7 +9,7 @@
   margin: 0 auto;
   padding-top: 92px;
   margin-bottom: 48px;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
 .studies__card {
@@ -45,29 +45,45 @@
 }
 
 .studies__nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 800px;
+width: 750px;
 }
 
-.list__name {
-  display: flex;
-  flex-direction: row;
-  max-width: 180px;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
 }
 
-.studies__list {
+.studies__menu {
+  display: flex;
+}
+
+.studies__menu > li  {
+  flex-basis: 180px;
+}
+
+.studies__menu li > ul {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  max-width: 180px;
+}
+
+.studies__menu > li > a {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600; 
+  margin-bottom: 20px;
+}
+
+.studies__menu > li > ul a {
+  display: inline-block;
+  text-decoration: none;
   font-size: 15px;
   line-height: 15px;
+  margin-bottom: 15px;
 }
+
+
 
 footer {
   max-width: 1290px;
@@ -75,10 +91,12 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-top: 1px solid black;
 }
 
 .footer__left {
   display: flex;
+  padding-top: 48px;
 }
 
 .footer__logo {
@@ -96,4 +114,7 @@ footer {
 
 .footer__right {
   max-width: 110px;
+  margin-right: 76px;
+  padding-top: 48px;
+
 }

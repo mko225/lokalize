@@ -10,21 +10,21 @@
   cursor: pointer;
 }
 
-.regular {
+.btn__regular {
   background-color: white;
   border: 1px solid #808080;
 }
 
-.main {
+.btn__main {
   background-color: #ff6336;
   color: white;
 }
 
-.wait {
+.btn__wait {
   background-color: black;
   color: white;
 }
 
-.tools {
+.btn__tools {
   max-width: 200px;
 }
